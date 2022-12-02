@@ -8,10 +8,7 @@ headers = {
    "Accept": "application/json"
 }
 
-query = {
-   'key': '303cf5e171ed248ed9616ca19a39935a',
-   'token': '0687479fc81308eda4b62108cc0d0af7ee13959ccf5b660d0ec3adc8a9f0ee2d'
-}
+query = {}
 
 response_list = requests.request(
    "GET",
